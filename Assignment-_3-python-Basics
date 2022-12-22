@@ -1,21 +1,25 @@
 1. Why are functions advantageous to have in your programs? 
 
 solution :
+* It will helps to divide the large programs into small groups
+* Reusability ie. we don't have to writing the same logic various times
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-2. When does the code in a function run: when it&#39;s specified or when it&#39;s called? 
+2. When does the code in a function run: when it's specified or when it's called? 
 
 solution :
+when a function is called python will leave the current code and first begins to execute the called function 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. What statement creates a function? 
 
 solution :
-
+def 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. What is the difference between a function and a function call? 
 
 solution :
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5. How many global scopes are there in a Python program? How many local scopes? 
