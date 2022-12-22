@@ -1,0 +1,184 @@
+1.What are the two values of the Boolean data type? How do you write them?  
+
+solution :
+1 and 0
+for 1 its True and 
+for 0 its False.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. What are the three different types of Boolean operators?  
+
+solution :
+and , or , not
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).  
+
+solution :
+True and True   = True
+True and False  = False
+False and True  = False
+False and False = False
+
+True or True   = True
+True or False  = True
+False or True  = True
+False or False = False
+
+not(True)   = False
+nat(False)  = True
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)  
+
+solution :
+(5 > 4) and (3 == 5)    = False
+not (5 > 4)             = False
+(5 > 4) or (3 == 5)     = True
+not ((5 > 4) or (3 == 5)) = False
+(True and True) and (True == False) = False
+(not False) or (not True) = True
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. What are the six comparison operators?  
+
+solution :
+
+==  (equal to)
+!=  (not equal to)
+>   (Greater Than)
+<   (Lesser than)
+>=  (Greater Than or equal to)
+<=  (lesser  Than or equal to)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.  
+
+solution :
+equal to compares right side of side of expression to left side of equation but
+but assignment Operators assigns right side of side of expression to left side of equation
+
+for example :
+a == b here a is comparing with b that weather a is equal to b or not and we get output as Boolean Type ( True or False )
+a = b here 'a' is variable and 'b' is assigning to 'a'. 'b' can be a value or an expression
+
+I use ( == ) when whenever I want compare two things 
+like True == True or False == False
+and I use (= or += or -= and others ) whenever I need assign some expression or a value to a expression or a variable
+like a = 5 ( a will return 5 as output )
+a += 5 ( 5 will be added to a and now a will return a+5 as output)
+a -= 5 ( 5 will be subtracted from a and will return a-5 as output )
+a *= 5 ( 5 will be multiplied to a a and will return a*5 as output )
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')  
+
+solution :
+
+in line 3,5,7
+
+spam = 0
+if spam == 10:
+  print('eggs')
+if spam > 5:
+  print('bacon')
+else:
+  print('ham')
+print('spam')
+print('spam') 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.  
+
+solution :
+
+try:
+    spam = int(input("spam"))
+    if spam == 1:
+        print("hello")
+    elif spam == 1:
+        print("Howdy")
+    else :
+        print("Greetings!")
+except:
+    print("Greetings!")
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?  
+
+solution :
+
+break
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+10. How can you tell the difference between break and continue?  
+
+solution :
+
+break is used to terminate the loop and 
+continue is used to skip the code inside the loop
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?  
+
+solution :
+there is no diffrence in using range(10), range(0, 10), and range(0, 10, 1) in a loop
+but if it is range(0,10,2) it will execute for loop by stepping in sequence
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.  
+
+solution :
+# method 1:
+for i in range(1,11):
+  print(i)
+ 
+# method 2
+a = 1
+while True :
+  if a > 10:
+    break
+  print(a)
+  a += 1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?  
+
+solution :
+
+spam.bacon()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
