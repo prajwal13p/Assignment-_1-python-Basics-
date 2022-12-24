@@ -19,56 +19,68 @@ def
 4. What is the difference between a function and a function call? 
 
 solution :
-
-
+A function is a block of code that performs some operation and gives the result which is created for reusability and 
+a function call is calling that block of code in a code so that we don't need to write the same code again and again!
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5. How many global scopes are there in a Python program? How many local scopes? 
 
 solution :
+ one global scopes and one local scope and it will be created when a function is called
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 6. What happens to variables in a local scope when the function call returns? 
 
 solution :
-
+after function call returns variables in local scope becomes undefined
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7. What is the concept of a return value? Is it possible to have a return value in an expression? 
 
 solution :
+return statement is used to end the execution of th function and is used to invoke a function so that the passed statements can be executed.
+
+yes it is possible to have a return value in an expression.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 8. If a function does not have a return statement, what is the return value of a call to that function? 
 
 solution :
-
+ 
+ None
+ 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9. How do you make a function variable refer to the global variable? 
 
 solution :
 
+using gobal statement we can refer function variable to the global variable
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 10. What is the data type of None? 
 
 solution :
-
+NoneType
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 11. What does the sentence import areallyourpetsnamederic do? 
 
 solution :
 
+imports a module named areallyourpetsnamederic
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 12. If you had a bacon() feature in a spam module, what would you call it after importing spam? 
 
 solution :
-
+spam.bacon()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 13. What can you do to save a programme from crashing if it encounters an error? 
 
 solution :
 
+I use try and execpt clause for that code to save my programme from crashing if that code encounters an error
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 14. What is the purpose of the try clause? What is the purpose of the except clause? 
 
 solution :
-
+the purpose of try clause is to protect the code from crashing and moves to except clause if error happens
+the purpose of except clause is to handle is the code that is crashed in try clause.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
