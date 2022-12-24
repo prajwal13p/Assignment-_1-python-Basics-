@@ -3,6 +3,8 @@
 solution :
 * It will helps to divide the large programs into small groups
 * Reusability ie. we don't have to writing the same logic various times
+* easy to read
+* makes the Program shorter
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. When does the code in a function run: when it's specified or when it's called? 
